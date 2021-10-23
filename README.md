@@ -1,3 +1,4 @@
+![todoNaranja](https://user-images.githubusercontent.com/82588598/138572264-9388377a-8418-48a5-a8a7-9873645c54ee.png)
 # cardioZone
 The Project aims to provide assistance to instructors / monitors of gym or fitness rooms where they work with people who want to improve their health through physical activity. The aim of this tool is for instructors to be able to view in a web browser all the people with whom they are working, which is the maximum heart rate of each people and the pulsations they must maintain during the training session.
 It’s important to know that not everyone has the same levels of effort, so the same pulse zones cannot be applied to two different people. Nor are zones of effort shared between two people of the same age since a person can have an active sports life and the partner be sedentary.
