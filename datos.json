@@ -1,0 +1,7 @@
+[
+    {"nombre": "Carlos", "apellido": "Cieslik", "dni": 28510076, "edad": 40, "sexo": "Hombre", "fcReposo": 44, "objetivo":50, "fcmax": 180, "zona": 58},
+    {"nombre": "Claudio", "apellido": "Romelak", "dni": 18520776, "edad": 49, "sexo": "Hombre", "fcReposo": 47, "objetivo":40, "fcmax": 171, "zona": 97},
+    {"nombre": "Andrea", "apellido": "Semenchuk", "dni": 38610256, "edad": 32, "sexo": "Mujer", "fcReposo": 40, "objetivo":70, "fcmax": 194, "zona": 148},
+    {"nombre": "Belen", "apellido": "Stanley", "dni": 39622244, "edad": 27, "sexo": "Mujer", "fcReposo": 42, "objetivo":50, "fcmax": 199, "zona": 120}
+
+]

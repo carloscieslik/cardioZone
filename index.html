@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/myStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,600;1,900&display=swap" rel="stylesheet">
+    <title>Calculadora FCMax</title>
+</head>
+<body>
+    <header class="headerClass">
+        <a href="index.html"><img src="assets/logo.png" alt="Logo" class="headerLogo"></a>
+        <h1>Calcular Frecuencia Cardiaca Máxima y Zona de trabajo</h1>
+    </header>
+    <main class="contentData">
+        <section class="sectionData">
+            
+        <form action="#" id="myForm" name="formulario">
+            <ul class="inputData">
+                <li>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" required>
+                </li>
+                <li>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" required>
+                </li>
+                <li>
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" required>
+                </li>
+                <li>
+                    <label for="edad">Edad:</label>
+                    <input type="number" min="1" max="100" pattern="^[0-9]+" id="edad" required>
+                </li>
+                <li>
+                    <label for="sexo">Sexo:</label>
+                    <select name="" id="sexo">
+                        <option value="Hombre">Hombre</option>
+                        <option value="Mujer">Mujer</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="fcReposo">FC en Reposo:</label>
+                    <input type="text" id="fcReposo" required>
+                </li>
+                <li>
+                    <label for="objetivo">Objetivo:</label>
+                    <select name="" id="objetivo">
+                        <option value="10">10%</option>
+                        <option value="20">20%</option>
+                        <option value="30">30%</option>
+                        <option value="40">40%</option>
+                        <option value="50">50%</option>
+                        <option value="60">60%</option>
+                        <option value="70">70%</option>
+                        <option value="80">80%</option>
+                        <option value="90">90%</option>
+                        <option value="100">100%</option>
+                    </select>
+                </li>
+        </section>
+        <section class="sectionButtons">
+            <button type="button" id="btnVerAlumnos">Ver Alumnos</button>
+            <button type="button" id="btnAgregar">Agregar Nuevo</button>
+            <button type="button" id="btnLimpiarForm">Limpiar formulario</button>
+            <button type="button" id="btnQuitarTodos">Quitar todas las personas</button>
+        </section>
+        </ul>
+        </form>
+        <div id="tiposEf">
+            <div id="low" class="tiposEf__content">Esfuerzo Bajo</div>
+            <div id="normal" class="tiposEf__content">Esfuerzo Normal</div>
+            <div id="medium" class="tiposEf__content">Esfuerzo Medio</div>
+            <div id="high" class="tiposEf__content">Esfuerzo Alto</div>
+        </div>
+        <div id="totalPersonas"></div>
+        <div id="personasAgregadas"></div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/buttons.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+</html>

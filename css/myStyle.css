@@ -1,0 +1,224 @@
+
+:root {
+    
+    --first-color: #ff1c10c7; 
+    --second-color: #fa4e0ae1; 
+    --third-color:#e46c82; 
+    --low-color:#b96b2c;
+    --bg-color: #70706e; 
+    --text-color: #F2F2F2; 
+
+    /*========== Font and typography ==========*/
+    --body-font: 'Montserrat', sans-serif;
+
+    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --big-font-size: 2.5rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font);
+    color: var(--text-color);
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+
+h1 {
+    text-align: center;
+    color:hsla(var(--first-hue-color), 85, 29, 1); 
+    padding: 2rem;
+}
+
+label {
+    font-size: 1.25rem;
+    margin: .5rem;
+}
+
+ input{
+     color: #121212;
+     border-radius: 5px;
+     height: 1.5rem;
+     margin: .3rem;
+ }
+
+ select{
+    height: 1.5rem;
+    margin: .3rem;
+    width: 6rem;
+ }
+
+ 
+li{
+    list-style: none;
+    padding: .5rem;
+}
+
+.headerClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #121212 0%, #70706e 100%);
+}
+
+.headerLogo{
+    width: 100px;
+    margin:15px 15px;
+}
+
+
+#low{
+    background-color:var(--low-color);
+}
+
+#normal{
+    background-color:var(--third-color);
+}
+
+#medium{
+    background-color:var(--second-color);
+}
+
+#high{
+    background-color:var(--first-color);
+}
+
+
+
+button{
+    font-size: 18px;
+    margin: .5rem;
+    padding: .6rem;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #121212 0%, #555352 100%);
+    color: #fff;
+   
+
+
+}
+
+button:hover{
+    background: linear-gradient(270deg, #FF1B10 0%, #FF4F12 100%);
+    color: #fff;
+
+}
+#myForm{
+    text-align: center;
+}
+.inputData{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: space-around;
+}
+
+.sectionButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+}
+
+.personasClass{
+    display: inline-block;
+    background-color:var(--third-color);
+    border-radius: 5px;
+    padding: .5rem;
+    margin: 5px;
+}
+
+#sexo, #objetivo{
+    color: var(--first-color);
+    background-color: var(--text-color);
+    border-radius: 5px;
+}
+
+#btnQuitarTodos{
+    display: none;
+}
+
+#totalPersonas > h2{
+    text-align: center;
+    padding: 5px;
+    height: 2rem;
+    background: linear-gradient(90deg,#FF4F12 0%, #70706e 100%);
+}
+
+#tiposEf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+
+.tiposEf__content{
+    display: inline-block;
+    padding: 5px;
+    margin:0px 3px 10px 3px;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+#personasAgregadas{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    width:100vw;
+}
+
+/*=============================MEDIA QUERIES================================*/
+/*Large display*/
+@media (min-width:1024px) {
+
+    .headerClass{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background: linear-gradient(180deg, #121212 0%, #70706e 100%);
+    }
+    h1{
+        margin-left: 100px;
+    }
+
+    .inputData{
+        flex-direction: row;
+    }    
+
+
+    .sectionButtons{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #personasAgregadas{
+        flex-direction: row; 
+        flex-wrap: wrap;
+        justify-content: center;
+        /*width:60rem;*/
+    }
+    
+    .personasClass{
+        width:200px;
+        max-width:200px;
+    }
+    #tiposEf{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+}
