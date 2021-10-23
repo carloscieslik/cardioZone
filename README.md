@@ -28,7 +28,7 @@ Zone 3 (medium): between 50% and 69%, the aerobic zone with a moderate / high rh
 
 Zone 4 (high): between 70% and 100%, it is the zone of maximum effort and intensity. People works the anaerobic resistance. It cannot be maintained for long periods of time.
 
-
+![capCardioZone](https://user-images.githubusercontent.com/82588598/138572415-1a9828f2-c8c2-478e-bbef-1bae221277b0.jpg)
 How does Cardio Zone work?
 When the instructor enters the system, he can load the people who frequently come to class and are already loaded into a database, pressing "View students" will show all those students with their respective HRmax and training zones. (In this case a "data.json" is called to test the communication and obtain data).
 
