@@ -1,0 +1,2 @@
+# cardioZone
+The Project aims to provide assistance to instructors / monitors of gym or fitness rooms where they work with people who want to improve their health through physical activity. The aim of this tool is for instructors to be able to view in a web browser all the people with whom they are working, which is the maximum heart rate of each people and the pulsations they must maintain during the training session.
